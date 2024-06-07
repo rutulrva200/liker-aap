@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(106, 121, 218);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mega_box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.screen_box {
+    margin-bottom: 20px;
+}
+
+.content_box {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.fa-thumbs-up, .fa-thumbs-down, .fa-comments, .fa-share, .fa-bell {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.pill_boxs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pill_boxs .box0, .pill_boxs .box1, .pill_boxs .box2, .pill_boxs .box3, .pill_boxs .box4 {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.pill_boxs .box0 {
+    background-color: #4caf50;
+    color: white;
+}
